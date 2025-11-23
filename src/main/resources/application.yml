@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: polina-ogarko
+  data:
+    redis:
+      host: ${REDIS_HOST}
+      port: 6379
+      password: ${REDIS_PASSWORD}
+
+driver:
+  url: http://localhost:4444/wd/hub
